@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for node-npmtest-xtend/xtend/</title>
+    <title>Code coverage report for node-npmtest-xtend/node_modules/xtend/mutable.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,10 +194,10 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-xtend">npmtest-xtend (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-xtend/xtend/</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-xtend/node_modules/xtend/mutable.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">30% <small>(3 / 10)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">33.33% <small>(3 / 9)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
         Branches: <span class="metric">0% <small>(0 / 2)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -206,47 +206,73 @@
         Functions: <span class="metric">0% <small>(0 / 1)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">30% <small>(3 / 10)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">33.33% <small>(3 / 9)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../index.html">All files</a> &#187; node-npmtest-xtend/xtend/</div>
+    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-xtend/node_modules/xtend/</a> &#187; mutable.js</div>
 </div>
 <div class="body">
-<div class="coverage-summary">
-<table>
-<thead>
-<tr>
-   <th data-col="file" data-fmt="html" data-html="true" class="file">File</th>
-   <th data-col="pic" data-type="number" data-fmt="html" data-html="true" class="pic"></th>
-   <th data-col="statements" data-type="number" data-fmt="pct" class="pct">Statements</th>
-   <th data-col="statements_raw" data-type="number" data-fmt="html" class="abs"></th>
-   <th data-col="branches" data-type="number" data-fmt="pct" class="pct">Branches</th>
-   <th data-col="branches_raw" data-type="number" data-fmt="html" class="abs"></th>
-   <th data-col="functions" data-type="number" data-fmt="pct" class="pct">Functions</th>
-   <th data-col="functions_raw" data-type="number" data-fmt="html" class="abs"></th>
-   <th data-col="lines" data-type="number" data-fmt="pct" class="pct">Lines</th>
-   <th data-col="lines_raw" data-type="number" data-fmt="html" class="abs"></th>
-</tr>
-</thead>
-<tbody><tr>
-	<td class="file low" data-value="immutable.js"><a href="immutable.js.html">immutable.js</a></td>
-	<td data-value="30" class="pic low"><span class="cover-fill" style="width: 30px;"></span><span class="cover-empty" style="width:70px;"></span></td>
-	<td data-value="30" class="pct low">30%</td>
-	<td data-value="10" class="abs low">(3&nbsp;/&nbsp;10)</td>
-	<td data-value="0" class="pct low">0%</td>
-	<td data-value="2" class="abs low">(0&nbsp;/&nbsp;2)</td>
-	<td data-value="0" class="pct low">0%</td>
-	<td data-value="1" class="abs low">(0&nbsp;/&nbsp;1)</td>
-	<td data-value="30" class="pct low">30%</td>
-	<td data-value="10" class="abs low">(3&nbsp;/&nbsp;10)</td>
-	</tr>
-
-</tbody>
-</table>
-</div></div>
+<pre><table class="coverage">
+<tr><td class="line-count">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19</td><td class="line-coverage"><span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">module.exports = extend
+&nbsp;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+&nbsp;
+<span class="fstat-no" title="function not covered" >function extend(target) {</span>
+<span class="cstat-no" title="statement not covered" >    for (var i = 1; i &lt; arguments.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >        var source = arguments[i]</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        for (var key in source) {</span>
+<span class="cstat-no" title="statement not covered" >            if (hasOwnProperty.call(source, key)) {</span>
+<span class="cstat-no" title="statement not covered" >                target[key] = source[key]</span>
+            }
+        }
+    }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return target</span>
+}
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+</div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 14:08:35 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 18 2017 18:55:19 GMT+0000 (UTC)</div>
 </div>
 </body>
 </html>
