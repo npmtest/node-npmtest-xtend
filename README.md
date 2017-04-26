@@ -1,6 +1,6 @@
 # npmtest-xtend
 
-#### test coverage for  [xtend (v4.0.1)](https://github.com/Raynos/xtend)  [![npm package](https://img.shields.io/npm/v/npmtest-xtend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xtend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xtend.svg)](https://travis-ci.org/npmtest/node-npmtest-xtend)
+#### basic test coverage for  [xtend (v4.0.1)](https://github.com/Raynos/xtend)  [![npm package](https://img.shields.io/npm/v/npmtest-xtend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xtend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xtend.svg)](https://travis-ci.org/npmtest/node-npmtest-xtend)
 
 #### extend like a boss
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xtend/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xtend/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xtend/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xtend/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xtend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xtend/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xtend/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xtend/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xtend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xtend/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xtend/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xtend/build/coverage.html/index.html)
 
@@ -103,7 +103,8 @@
             "iphone/6.0..latest"
         ]
     },
-    "version": "4.0.1"
+    "version": "4.0.1",
+    "bin": {}
 }
 ```
 
